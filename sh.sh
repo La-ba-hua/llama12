@@ -1,4 +1,4 @@
-TARGET_FOLDER="~/Llama 2"             # where all files should end up
+TARGET_FOLDER="/root/"             # where all files should end up
 mkdir -p ${TARGET_FOLDER}
 
 if [[ $MODEL_SIZE == "" ]]; then
